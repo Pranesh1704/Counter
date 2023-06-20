@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #535a63;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 46px;
+    margin-top:100px ;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    cursor: default;
+    text-shadow:1px 1px 10px #111111;
+}
+
+.center{
+    height: 200px;
+    width: 500px;
+    background-color: #7dafb3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px #111111;
+}
+
+.btn-container{
+width: 50%;
+height: 20%;
+margin: auto;
+margin-top: 20%;
+padding: 10px;
+background-color: #7dafb3;
+
+}
+.btn{
+    width:80px;
+    height: 35px;
+    padding: 10px;
+    margin-left: 0px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border:1px solid black;
+    border-radius: 8px;
+}
+span{
+    display:block;
+    height: 40px;
+    width: 40px;
+    float:left;
+    margin-left: 45%;
+    margin-top: 6%;
+    padding:5px 10px;
+    font-size: 42px;
+    background-color: #7dafb3;
+    cursor:default;
+    text-shadow:1px 1px 1px #111111;
+
+}
+.decrease:hover{
+    background-color: rgb(144, 32, 32);
+    color:white;
+    border:1px solid white;
+    transition: ease-in 0.1s;
+}
+.increase:hover{
+    background-color: rgb(21, 60, 110);
+    color:white;
+    border:1px solid white;
+    transition: ease-in 0.1s;
+}
+
+.reset:hover{
+    background-color: rgb(1, 1, 1);
+    color:white;
+    /* border:1px solid white; */
+    transition: ease-in 0.1s;
+}
+
